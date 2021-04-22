@@ -1,0 +1,11 @@
+white-space: nowrap;
+
+letter-spacing: .05em;
+
+line-height: 1.6;
+
+getBoundingClientRect().top
+
+transform: translateY(50px);
+
+nth-of-type(odd, even)
