@@ -266,17 +266,17 @@ p {
 .motto-left ul {
   margin-top: 60px;
   text-align: center;
-  font-size: 85%;
+}
+
+.motto-left li {
+  font-size: 15px;
+  margin-top: 5px;
 }
 
 .motto-a {
-  margin-top: 20px;
-}
-
-.motto-b {
+  margin-top: 30px;
+  font-size: 27px;
   text-align: center;
-  font-size: 35px;
-  margin-top: 80px;
 }
 
 .motto-right {
@@ -391,4 +391,72 @@ p {
   position: absolute;
   left: 48%;
   top: 10%;
+}
+
+/* 下記より contact.html */
+
+label {
+  display: block;
+  margin-top: 30px;
+}
+
+textarea {
+  width: 60%;
+  height: 100px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+::placeholder {
+  color: #c8c8c8;
+}
+
+.input-form {
+  width: 60%;
+  height: 40px;
+  margin-top: 10px;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+.main-form {
+  width: 100vw;
+  height: 120vh;
+  padding: 120px ;
+}
+
+.company-form {
+  text-align: center;
+}
+
+.customer-form {
+  text-align: center;
+}
+
+.mail-form {
+  text-align: center;
+}
+
+.tell-form {
+  text-align: center;
+}
+
+.text-form {
+  text-align: center;
+}
+
+.submit-form {
+  text-align: center;
+}
+
+.submit {
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #e8e8e8;
+  background-color: #666666;
+  border: 2px solid #333333;
 }

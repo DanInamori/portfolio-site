@@ -9,7 +9,7 @@
     <script src="../js/swiper-bundle.min.js"></script>
     <script src="../js/script.js" defer></script>
     <script src="../js/load.js"></script>
-    <script src="../js/scroll.js"></script>
+    <script src="../js/header.js"></script>
   </head>
   <body>
     <!-- <img src="../images/contact.png" class="flash-image" alt="" > -->
@@ -38,15 +38,32 @@
     </header>
     <main>
       <div class="main-form">
-        <h2>Contact</h2>
-        <p>下記フォームよりご記入ください。</p>
+        <h2 class="contact-title">Contact</h2>
+        <p class="contact-message">下記フォームよりご記入ください。</p>
         <form class="form-container">
-          <input type="text">
-          <input type="text">
-          <input type="text">
-          <input type="text">
-          <textarea name="message"></textarea>
-          <input type="submit" value="送信する">
+          <div class="company-form">
+            <label>貴社名</label>
+            <input type="text" class="input-form">
+          </div>
+          <div class="customer-form">
+            <label>お名前</label>
+            <input type="text" class="input-form">
+          </div>
+          <div class="mail-form">
+            <label>メールアドレス</label>
+            <input type="text" class="input-form">
+          </div>
+          <div class="tell-form">
+            <label>電話番号</label>
+            <input type="text" class="input-form">
+          </div>
+          <div class="text-form">
+            <label>お問い合わせ内容</label>
+            <textarea name="message"></textarea>
+          </div>
+          <div class="submit-form">
+            <input type="submit" value="送信する" class="submit" >
+          </div>
         </form>
       </div>
     </main>
